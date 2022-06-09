@@ -1,1 +1,62 @@
-"Hello World" 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header/Logo Title */
+.header {
+  padding: 1px 30px 1px 1px;
+  text-align: right;
+  background: #202020;
+  background-image: linear-gradient(to bottom right, #334960, #202020);
+  color: white;
+  font-size: 14px;
+  height: 150px;
+}
+
+.header a {
+  color: white;
+  font-size: 12px;
+}
+
+.avatar img {
+    height: 150px;
+    float: left;
+    border: 2px black;
+}
+
+/* Page Content */
+.content {padding:20px;}
+</style>
+</head>
+<body>
+
+<div class="header">
+    <div class='avatar'>
+        <img src="alien-octopus.jpg" />
+    </div>
+    <h1>Lee Reeves</h1>
+    <p>Open source AI</p>
+    <a href="https://github.com/leereeves">https://github.com/leereeves</a>
+</div> 
+
+<div class="content">
+  <h1>What can AI do?</h1>
+  <p>Play classic Atari games better than people.</p>
+  <p>Win at chess.</p>
+  <p>Beat the world champion at Go.</p>
+  <p>Play pong</p>
+  <video src="demos/pongdemo.mp4" controls muted autoplay></video>
+  <img src="demos/pongdemo.gif" />
+</div>
+
+</body>
+</html>
